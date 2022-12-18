@@ -1,0 +1,24 @@
+{
+    "name": "selenium",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha test/**/**.spec.js",
+        "remote-test": "browserstack-node-sdk mocha test/**/*.spec.js --timeout=120000"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "browserstack-local": "^1.4.8",
+        "browserstack-node-sdk": "latest",
+        "chai": "^4.2.0",
+        "mocha": "^6.2.0",
+        "selenium-webdriver": "4.2.0"
+    },
+    "dependencies": {
+        "dotenv": "^16.0.3",
+        "mocha-logger": "^1.0.8"
+    }
+}
