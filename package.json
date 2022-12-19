@@ -20,6 +20,6 @@
     "selenium-webdriver": "^4.2.0"
   },
   "dependencies": {
-    "mocha-allure-reporter": "^2.20.1"
+    "mocha-allure-reporter": "^1.4.0"
   }
 }
