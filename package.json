@@ -4,21 +4,19 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "mocha test/**/**.spec.js",
-        "remote-test": "browserstack-node-sdk mocha test/**/*.spec.js --timeout=120000"
+      "test": "mocha test/**/*.js",
+      "sample-test": "browserstack-node-sdk mocha test/**/*.spec.js --timeout=60000"
     },
     "keywords": [],
-    "author": "",
+    "author": "Abramovich Vladislav",
     "license": "ISC",
     "devDependencies": {
-        "browserstack-local": "^1.4.8",
-        "browserstack-node-sdk": "latest",
-        "chai": "^4.2.0",
-        "mocha": "^6.2.0",
-        "selenium-webdriver": "4.2.0"
-    },
-    "dependencies": {
-        "dotenv": "^16.0.3",
-        "mocha-logger": "^1.0.8"
+      "browserstack-local": "^1.4.8",
+      "selenium-webdriver": "4.2.0",
+      "chai": "^4.2.0",
+      "dotenv": "^16.0.3",
+      "mocha": "^6.2.0",
+      "mocha-logger": "^1.0.8",
+      "browserstack-node-sdk": "latest"
     }
-}
+  }
